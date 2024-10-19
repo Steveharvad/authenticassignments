@@ -1,99 +1,142 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assignment Help Services</title>
+  <link rel="stylesheet" href="STYLE.CSS">
+</head>
+<body>
+  <header>
+    <h1>AUTHENTIC ASSIGNMENT HELP</h1>
+    <p>💯 0% plagiarism ✅ | 💯 Guaranteed high score | 💯 Timely delivery 🕘 | 💯 Pocket friendly - Money refundable in case of any complaint 💵</p>
+  </header>
 
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f0f4f8;
-  color: #333;
-  text-align: center;
-}
+  <section class="services">
+    <h2>We are BEST in:</h2>
+    <div class="grid-container">
+      <!-- Row with columns for key services -->
+      <div class="row">
+        <div class="column">ACCOUNTING</div>
+        <div class="column">COMPUTER SCIENCE</div>
+        <div class="column">MATHS AND STATISTICS</div>
+        <div class="column">LAW AND NURSING</div>
+        <div class="column">GENERAL RESEARCH</div>
+      </div>
+    </div>
 
-header {
-  background-color: #007bff;
-  color: white;
-  padding: 20px;
-}
+    <!-- Grid List of Fields -->
+    <div class="fields-grid">
+      <div>Business Studies</div>
+      <div>Supply Chain</div>
+      <div>Finance</div>
+      <div>Economics</div>
+      <div>Management</div>
+      <div>Marketing</div>
+      <div>Medical Sciences</div>
+      <div>MBA</div>
+      <div>Nursing</div>
+      <div>Law</div>
+      <div>Humanities</div>
+      <div>English Language</div>
+      <div>Psychology</div>
+      <div>Biological Sciences</div>
+      <div>Computer Science</div>
+      <div>Lab Reports</div>
+      <div>Capstone Projects</div>
+      <div>Math</div>
+      <div>Project Management</div>
+      <div>Web & Mobile App Development</div>
+      <div>Engineering</div>
+      <div>Interior Design</div>
+      <div>Architecture</div>
+      <div>Geology</div>
+      <div>Public Health</div>
+      <div>Pharmacy</div>
+      <div>Veterinary Medicine</div>
+      <div>Anthropology</div>
+      <div>Sociology</div>
+      <div>History</div>
+      <div>Political Science</div>
+      <div>International Relations</div>
+      <div>Environmental Science</div>
+      <div>Physics</div>
+      <div>Chemistry</div>
+      <div>Astronomy</div>
+      <div>Actuarial Science</div>
+      <div>Statistics</div>
+      <div>Data Science</div>
+      <div>Artificial Intelligence</div>
+      <div>Cybersecurity</div>
+      <div>Information Technology</div>
+      <div>Software Engineering</div>
+      <div>Graphic Design</div>
+      <div>Fine Arts</div>
+      <div>Music</div>
+      <div>Film Studies</div>
+      <div>Theatre Arts</div>
+      <div>Fashion Design</div>
+      <div>Photography</div>
+      <div>Culinary Arts</div>
+      <div>Hospitality Management</div>
+      <div>Event Planning</div>
+      <div>Tourism Management</div>
+      <div>Sports Science</div>
+      <div>Exercise Physiology</div>
+      <div>Kinesiology</div>
+      <div>Nutrition</div>
+      <div>Dietetics</div>
+      <div>Public Administration</div>
+      <div>Urban Planning</div>
+      <div>Social Work</div>
+      <div>Criminal Justice</div>
+      <div>Forensic Science</div>
+      <div>Law Enforcement</div>
+      <div>Military Science</div>
+      <div>Aerospace Engineering</div>
+      <div>Aviation Management</div>
+      <div>Marine Biology</div>
+      <div>Oceanography</div>
+      <div>Forestry</div>
+      <div>Agriculture</div>
+      <div>Horticulture</div>
+      <div>Animal Science</div>
+      <div>Fishery Science</div>
+      <div>Food Science</div>
+      <div>Soil Science</div>
+      <div>Plant Pathology</div>
+      <div>Ecology</div>
+      <div>Botany</div>
+      <div>Zoology</div>
+      <div>Genetics</div>
+      <div>Microbiology</div>
+      <div>Immunology</div>
+      <div>Pathology</div>
+      <div>Pharmacology</div>
+      <div>Biomedical Engineering</div>
+      <div>Materials Science</div>
+      <div>Nanotechnology</div>
+      <div>Robotics</div>
+      <div>Mechatronics</div>
+      <div>Civil Engineering</div>
+      <div>Electrical Engineering</div>
+      <div>Mechanical Engineering</div>
+      <div>Chemical Engineering</div>
+      <div>Petroleum Engineering</div>
+      <div>Mining Engineering</div>
+      <div>Telecommunications</div>
+      <div>Business Analytics</div>
+    </div>
+  </section>
 
-h1 {
-  font-size: 2.5em;
-}
+  <footer>
+    <p>Contact Us:</p>
+    <div class="contact-icons">
+      <a href="https://api.whatsapp.com/send?phone=+17246486243&text=Assignment%20help" target="_blank" class="whatsapp"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+      <a href="https://mail.google.com/mail/?view=cm&fs=1&to=steveharvard101@gmail.com" target="_blank" class="email"><i class="fas fa-envelope"></i> Email</a>
+    </div>
+  </footer>
 
-p {
-  font-size: 1.2em;
-  margin-top: 10px;
-}
-
-.services {
-  margin: 40px 20px;
-}
-
-.services h2 {
-  font-size: 2em;
-  color: #007bff;
-}
-
-.grid-container {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 20px;
-  margin-top: 20px;
-}
-
-.row {
-  display: contents; /* This keeps the rows logical but doesn't disrupt the grid layout */
-}
-
-.column {
-  background-color: #fff;
-  border: 1px solid #ddd;
-  padding: 10px;
-  font-size: 1.1em;
-}
-
-footer {
-  margin: 40px 0;
-}
-
-.contact-icons {
-  margin: 20px 0;
-}
-
-.contact-icons a {
-  font-size: 2em;
-  margin: 0 15px;
-  color: #007bff;
-  text-decoration: none;
-}
-
-.contact-icons a:hover {
-  color: #0056b3;
-}
-
-.floating-icons {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  display: flex;
-  flex-direction: column;
-}
-
-.floating-icons a {
-  background-color: #007bff;
-  color: white;
-  font-size: 2em;
-  padding: 10px;
-  border-radius: 50%;
-  margin: 10px 0;
-  text-decoration: none;
-}
-
-.floating-icons a:hover {
-  background-color: #0056b3;
-}
-
-.fab, .fas {
-  font-size: 1.5em;
-}
+ 
+</body>
+</html>
