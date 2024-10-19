@@ -1,142 +1,99 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Assignment Help Services</title>
-  <link rel="stylesheet" href="STYLE.CSS">
-</head>
-<body>
-  <header>
-    <h1>AUTHENTIC ASSIGNMENT HELP</h1>
-    <p>💯 0% plagiarism ✅ | 💯 Guaranteed high score | 💯 Timely delivery 🕘 | 💯 Pocket friendly - Money refundable in case of any complaint 💵</p>
-  </header>
+/* Style for the services grid */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Four columns for key services */
+  gap: 20px;
+  text-align: center;
+}
 
-  <section class="services">
-    <h2>We are BEST in:</h2>
-    <div class="grid-container">
-      <!-- Row with columns for key services -->
-      <div class="row">
-        <div class="column">ACCOUNTING</div>
-        <div class="column">COMPUTER SCIENCE</div>
-        <div class="column">MATHS AND STATISTICS</div>
-        <div class="column">LAW AND NURSING</div>
-        <div class="column">GENERAL RESEARCH</div>
-      </div>
-    </div>
+.column {
+  background-color: #ffebcc; /* Soft orange background */
+  padding: 10px;
+  border: 1px solid #ddd;
+  transition: background-color 0.3s ease;
+}
 
-    <!-- Grid List of Fields -->
-    <div class="fields-grid">
-      <div>Business Studies</div>
-      <div>Supply Chain</div>
-      <div>Finance</div>
-      <div>Economics</div>
-      <div>Management</div>
-      <div>Marketing</div>
-      <div>Medical Sciences</div>
-      <div>MBA</div>
-      <div>Nursing</div>
-      <div>Law</div>
-      <div>Humanities</div>
-      <div>English Language</div>
-      <div>Psychology</div>
-      <div>Biological Sciences</div>
-      <div>Computer Science</div>
-      <div>Lab Reports</div>
-      <div>Capstone Projects</div>
-      <div>Math</div>
-      <div>Project Management</div>
-      <div>Web & Mobile App Development</div>
-      <div>Engineering</div>
-      <div>Interior Design</div>
-      <div>Architecture</div>
-      <div>Geology</div>
-      <div>Public Health</div>
-      <div>Pharmacy</div>
-      <div>Veterinary Medicine</div>
-      <div>Anthropology</div>
-      <div>Sociology</div>
-      <div>History</div>
-      <div>Political Science</div>
-      <div>International Relations</div>
-      <div>Environmental Science</div>
-      <div>Physics</div>
-      <div>Chemistry</div>
-      <div>Astronomy</div>
-      <div>Actuarial Science</div>
-      <div>Statistics</div>
-      <div>Data Science</div>
-      <div>Artificial Intelligence</div>
-      <div>Cybersecurity</div>
-      <div>Information Technology</div>
-      <div>Software Engineering</div>
-      <div>Graphic Design</div>
-      <div>Fine Arts</div>
-      <div>Music</div>
-      <div>Film Studies</div>
-      <div>Theatre Arts</div>
-      <div>Fashion Design</div>
-      <div>Photography</div>
-      <div>Culinary Arts</div>
-      <div>Hospitality Management</div>
-      <div>Event Planning</div>
-      <div>Tourism Management</div>
-      <div>Sports Science</div>
-      <div>Exercise Physiology</div>
-      <div>Kinesiology</div>
-      <div>Nutrition</div>
-      <div>Dietetics</div>
-      <div>Public Administration</div>
-      <div>Urban Planning</div>
-      <div>Social Work</div>
-      <div>Criminal Justice</div>
-      <div>Forensic Science</div>
-      <div>Law Enforcement</div>
-      <div>Military Science</div>
-      <div>Aerospace Engineering</div>
-      <div>Aviation Management</div>
-      <div>Marine Biology</div>
-      <div>Oceanography</div>
-      <div>Forestry</div>
-      <div>Agriculture</div>
-      <div>Horticulture</div>
-      <div>Animal Science</div>
-      <div>Fishery Science</div>
-      <div>Food Science</div>
-      <div>Soil Science</div>
-      <div>Plant Pathology</div>
-      <div>Ecology</div>
-      <div>Botany</div>
-      <div>Zoology</div>
-      <div>Genetics</div>
-      <div>Microbiology</div>
-      <div>Immunology</div>
-      <div>Pathology</div>
-      <div>Pharmacology</div>
-      <div>Biomedical Engineering</div>
-      <div>Materials Science</div>
-      <div>Nanotechnology</div>
-      <div>Robotics</div>
-      <div>Mechatronics</div>
-      <div>Civil Engineering</div>
-      <div>Electrical Engineering</div>
-      <div>Mechanical Engineering</div>
-      <div>Chemical Engineering</div>
-      <div>Petroleum Engineering</div>
-      <div>Mining Engineering</div>
-      <div>Telecommunications</div>
-      <div>Business Analytics</div>
-    </div>
-  </section>
+.column:hover {
+  background-color: #ffe0b3; /* Slightly brighter on hover */
+}
 
-  <footer>
-    <p>Contact Us:</p>
-    <div class="contact-icons">
-      <a href="https://api.whatsapp.com/send?phone=+17246486243&text=Assignment%20help" target="_blank" class="whatsapp"><i class="fab fa-whatsapp"></i> WhatsApp</a>
-      <a href="https://mail.google.com/mail/?view=cm&fs=1&to=steveharvard101@gmail.com" target="_blank" class="email"><i class="fas fa-envelope"></i> Email</a>
-    </div>
-  </footer>
+/* Style for the fields grid */
+.fields-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Adjust the number of columns */
+  gap: 10px;
+  margin-top: 20px;
+}
 
- 
-</body>
-</html>
+.fields-grid div {
+  padding: 8px;
+  background-color: #e0f7fa; /* Soft teal background */
+  border: 1px solid #00acc1; /* Teal border */
+  text-align: center;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.fields-grid div:hover {
+  background-color: #b2ebf2; /* Brighter teal on hover */
+  transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+/* Contact Icons */
+.contact-icons a {
+  margin-right: 20px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  background-color: #4CAF50; /* Green background for WhatsApp */
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.contact-icons .email {
+  background-color: #f44336; /* Red background for Email */
+}
+
+.contact-icons a:hover {
+  background-color: #388e3c; /* Darker green for WhatsApp on hover */
+  opacity: 0.9;
+}
+
+.contact-icons .email:hover {
+  background-color: #d32f2f; /* Darker red for Email on hover */
+}
+
+/* Floating icons */
+.floating-icons {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  z-index: 100;
+}
+
+.floating-icons a {
+  color: white;
+  background-color: #8bc34a; /* Light green for WhatsApp */
+  padding: 10px;
+  border-radius: 50px;
+  font-size: 24px;
+  text-decoration: none;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.floating-icons .floating-email {
+  background-color: #e91e63; /* Pink background for Email */
+}
+
+.floating-icons a:hover {
+  background-color: #7cb342; /* Darker green on hover */
+  opacity: 0.9;
+}
+
+.floating-icons .floating-email:hover {
+  background-color: #d81b60; /* Darker pink on hover */
+}
