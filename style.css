@@ -5,20 +5,24 @@
   right: 20px;
   display: flex;
   flex-direction: column;
-  gap: 10px; /* Add space between icons */
+  gap: 15px; /* Add space between icons */
   z-index: 100; /* Ensure icons are above other elements */
 }
 
 .floating-icons a {
   color: white;
   background-color: green; /* WhatsApp color */
-  padding: 10px;
-  border-radius: 50%;
-  display: inline-block;
-  text-align: center;
-  font-size: 24px;
-  width: 50px;
-  height: 50px;
+  padding: 10px 15px;
+  border-radius: 50px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.floating-icons a i {
+  margin-right: 8px;
 }
 
 .floating-icons .floating-email {
@@ -26,20 +30,38 @@
 }
 
 .floating-icons a:hover {
-  opacity: 0.8;
+  opacity: 0.9;
 }
 
 /* Mobile view adjustments */
 @media (max-width: 768px) {
   .floating-icons {
-    bottom: 10px;
-    right: 10px;
-    gap: 8px;
+    bottom: 15px;
+    right: 15px;
+    gap: 10px;
   }
 
   .floating-icons a {
-    font-size: 20px;
-    width: 40px;
-    height: 40px;
+    font-size: 16px;
+    padding: 8px 12px;
   }
+}
+
+/* Footer contact icons (same for footer section) */
+.contact-icons a {
+  margin-right: 20px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  background-color: #4CAF50;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+.contact-icons .email {
+  background-color: red;
+}
+
+.contact-icons a:hover {
+  opacity: 0.8;
 }
